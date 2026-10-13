@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Rentable</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f5;
+      color: #18352a;
+    }
+    header {
+      background: #103c2c;
+      color: white;
+      padding: 25px 18px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; }
+    header p { margin: 0; }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      padding: 15px;
+      background: white;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #176b47;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 45px 20px;
+      text-align: center;
+      background: #dff4e7;
+    }
+    .hero h2 { font-size: 30px; }
+    .hero p { line-height: 1.7; }
+    .btn {
+      display: inline-block;
+      background: #159456;
+      color: white;
+      padding: 13px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    section { padding: 25px 18px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #103c2c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Business Rentable</h1>
+    <p>Apprends, crée et développe ton business.</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#formations">Nos guides</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <div class="hero" id="accueil">
+      <h2>Construis ton avenir financier</h2>
+      <p>Découvre des conseils pratiques et des guides numériques
+      pour développer tes compétences et lancer tes projets.</p>
+      <a class="btn" href="#formations">Découvrir les guides</a>
+    </div>
+
+    <section id="formations">
+      <h2>Nos guides numériques</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🚀 Démarrer son business</h3>
+          <p>Découvre les bases pour préparer ton premier projet
+          avec des moyens limités.</p>
+        </div>
+        <div class="card">
+          <h3>💻 Créer un produit digital</h3>
+          <p>Apprends à préparer un guide PDF et à le proposer
+          à tes futurs clients.</p>
+        </div>
+        <div class="card">
+          <h3>🛡️ Éviter les arnaques</h3>
+          <p>Apprends à reconnaître les fausses offres d'emploi
+          et de bourses avant de perdre ton argent.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Tu souhaites en savoir plus sur nos guides ?</p>
+      <p>Nos informations de contact seront ajoutées ici.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Business Rentable — Tous droits réservés.</p>
+  </footer>
+</body>
+  </html>
